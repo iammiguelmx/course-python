@@ -1,5 +1,9 @@
 # F U N T I O N S
 
+def imprime_student(estudiantes):
+    for e in estudiantes:
+        print("- ",e)
+
 def sumar(x, y):
     return x + y
 
